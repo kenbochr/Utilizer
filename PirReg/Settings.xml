@@ -1,0 +1,22 @@
+<root>
+  <!--reportFolder: Where reports are saved-->
+  <reportFolder folder="c:\Users\Kenneth\Desktop\" />
+  
+  <!--dateGenerate: 0=Current year start. 1=Past month start-->
+  <from dateGenerate="0" time="08:00" />
+
+  <!--dateGenerate: 0=dags dato. 1=Forgangne måned slut-->
+  <to dateGenerate="1" time="18:00" />
+  
+  
+  <!--sqlConnection: connectionstring to sql that returns a table or a view with: Column[0] = dateTime, Column[1] = int, string or bool like '0 or 1' or 'true or false'.-->
+  <sqlConnection connection="data source=.\sqlexpress;initial catalog=Utilizer;integrated security=true" />
+  
+  <!--minActivityInRoom: Minutes must be between 0 and 60-->
+  <minActivityInRoom minutes="20" />
+  
+  <rooms domicile="CampusX">
+    <room building="6" level="1" name="6119" uniqueName="6119" area="71,7" roomFunction="Theory" note="" sql="Select DateTime, Activity from Activities inner join Rooms on Activities.RoomId = Rooms.Id where Rooms.Room = '6119'" />
+    <room building="6" level="1" name="6120" uniqueName="6120" area="72,2" roomFunction="Theory" note="" sql="Select DateTime, Activity from Activities inner join Rooms on Activities.RoomId = Rooms.Id where Rooms.Room = '6120'" />
+  </rooms>
+</root>
