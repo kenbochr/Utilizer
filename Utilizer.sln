@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{4926
 	ProjectSection(SolutionItems) = preProject
 		Example\Example on a real report.xlsx = Example\Example on a real report.xlsx
 		Example\Initial database.sql = Example\Initial database.sql
+		Example\Publish.zip = Example\Publish.zip
 	EndProjectSection
 EndProject
 Global
