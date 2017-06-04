@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PirReg", "PirReg\PirReg.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{DEB36E7A-0C19-474A-BEB5-1D2293559F53}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{49269707-ED06-4EB1-9934-120F3389CCA8}"
+	ProjectSection(SolutionItems) = preProject
+		Example\Example on a real report.xlsx = Example\Example on a real report.xlsx
+		Example\Initial database.sql = Example\Initial database.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
