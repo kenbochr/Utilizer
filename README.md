@@ -15,6 +15,7 @@ Date                    | Activity
 2017-01-01 11:33:00.000 | 0
 
 ## Setup
+If you don't have a database that contains PIR data, you can setup this [**test database**](https://github.com/kenbochr/Utilizer/blob/master/Example/Initial%20database.sql).  
 Install [**Publish.zip**](https://github.com/kenbochr/Utilizer/blob/master/Example/Publish.zip).
 Run the program and press the key "a", to edit [**Settings.xml**](https://github.com/kenbochr/Utilizer/blob/master/PirReg/Settings.xml).  
 After edit, then run the program again, and a report will be created.
